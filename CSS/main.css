@@ -573,7 +573,7 @@ body{
     align-items: center;
     justify-content: space-evenly;  
 }
-.navbar-product-list__item__navbar-link {
+.navbar__item__navbar-link {
     color: #000;
     font-family: 'Roboto';
     font-size: 18px;
@@ -582,10 +582,10 @@ body{
     line-height: normal;
     opacity: 0.6;
 }
-.navbar-product-list__item__navbar-link::before{
+.navbar__item__navbar-link::before{
 
 }
-.navbar-product-list__item__navbar-link:hover{
+.navbar-__item__navbar-link:hover{
     opacity: 1;
 }
 .product-parts{
@@ -650,10 +650,24 @@ body{
     line-height: normal;
     text-decoration-line: strikethrough;
 }
+.down-price{
+    width: 58px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: right;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+    opacity: 0.7;
+}
 .product-content__link {
     width: 165px;
     height: 49px;
-    margin-top: 50px;
+    margin-top: 16px;
     color: #FAFAFA;
     font-size: 16px;
     font-style: normal;
@@ -699,3 +713,466 @@ body{
     line-height: normal;
 }
 /* PRODUCT STYLES END */
+.product2-parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row-reverse;
+}
+.product2-content{
+    text-align: right;
+}
+.product-title {
+    padding-top: 132px;
+    color: #150101;
+    font-family: 'Hind Madurai';
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 64px;
+}
+.navbar-product-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.navbar__item__navbar-link {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+.navbar__item__navbar-link::before{
+
+}
+.navbar__item__navbar-link:hover{
+    opacity: 1;
+}
+.product2-parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.product2-image {
+    width: 580px;
+    height: 415px;
+    top: 2140px;
+    left: 270px;
+    border-radius: 10px;
+}
+.product2 {
+    width: 454px;
+    height: 234px;
+    flex-shrink: 0;
+}
+.product2-content__title {
+    color: #000;
+    font-family: 'Hind Madurai';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.product2-content__down {
+    width: 456px;
+    height: 67px;
+    margin-bottom: 28px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.7;
+}
+.price2 {
+    width: 71px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Hind Madurai';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.price2__before {
+    width: 58px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Hind Madurai';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+}
+.down2-price{
+    width: 58px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: right;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+    opacity: 0.7;
+}
+.product2-content__link {
+    width: 165px;
+    height: 49px;
+    margin-top: 16px;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Hind Madurai" ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background: #D23166;
+}
+.product2-content__link:hover{
+    width: 165px;
+    height: 49px;
+    border: 2px solid #D23166;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.3s all;
+    
+    color: #D23166;
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.product2-content__link:active{
+    width: 165px;
+    height: 49px;
+    border: 2px solid #fff;
+    background-color: rgb(135, 210, 135);
+    border-radius: 5px;
+    transition: 0.1s all;
+
+
+    color: #FAFAFA;
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.our__bread-content3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row-reverse;
+    gap: 90px;
+}
+.our__cayenne3{
+    background-image: url("../image/adelei-bg-img.svg"),url("../image/icon-bg.svg"),url("../image/icon-bg2.svg"),url("../image/right.svg"),url("../image/Mask-bg.svg"),url("../image/adelebg-img.svg"),url("../image/adelebg-img2.svg"),url("../image/right-arrow.svg");
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position-y: calc(50% - 50%),103px,158px,224px,213px,202px,213px,224px;
+    background-position-x: calc(50% - 195px),2px,266px,1px,35px,93px,175px,236px;
+    width: 454px;
+    height: 260px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.our__adele-number{
+    margin-left: 75px;
+    margin-top: 5px;
+    width: 77px;
+    height: 15px;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+.our__cream-title{
+    margin-left: 80px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.our__cream-text{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 322px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.7;
+}
+/* simple-section-start */
+.simple-section{
+    padding: 85px 0 144px;
+    background-color: #F8EDF0;
+    background-image: url("../image/Raspberry.png");
+    background-repeat: no-repeat;
+    background-position-y: calc(50% + 0%);
+    background-position-x: calc(14% + 14px);
+}
+.simple__content{
+    margin-left: 450px;
+}
+.simple__title{
+    width: 621px;
+    color: #000;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.simple__text{
+    margin-top: 20px;
+    width: 607px;
+    height: 60px;
+    color: #0F0101;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    opacity: 0.7;
+}
+.spans{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.simple__google-play{
+    display: flex;
+    gap: 10px;
+}
+.simple__span-text{
+    width: 166px;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.simple__web-site{
+    margin-top: 41px;
+    display: flex;
+    gap: 7px;
+}
+/* simple-section-end */
+
+/* have-section-start */
+.have-section{
+    padding: 111px 0 110px;
+    background: #FFF;
+}
+.have{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.have__title{
+    width: 503px;
+    height: 123px;
+    color: #000;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.form-action{
+    margin-top: 36px;
+}
+.input-tel-text{
+    display: flex;
+    gap: 30px;
+}
+.form-input{
+    width: 303px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background: #FFF;
+}
+.question{
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background: #FFF;
+}
+.form-input-send{
+    margin-left: 2px;
+    width: 490px;
+    border: 1px solid white;
+}
+::placeholder{
+    padding-left: 25px;
+}
+.question-send{
+    width: 134px;
+    height: 74px;
+    border-radius: 5px;
+    background: #D64374;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* have-section-end */
+
+/* footer-start */
+
+.site-footer{
+    padding: 70px 0 104px;
+    background: #0A0808;
+}
+.polar-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.polar-footer-content{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.polar__text{
+    margin-top: 9px;
+    width: 207px;
+    height: 47px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.687%; /* 16.762px */
+    letter-spacing: 0.12px;
+    opacity: 0.7;
+}
+.polar__span{
+    margin-top: 25px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.polar__instagram{
+    margin-top: 8px;
+}
+.polar__list{
+    margin-top: 75px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.polar__item{
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}
+.polar__lists{
+    margin-top: 70px;
+    margin-left: 132px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.polar__items{
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+.form-input-Subscribe{
+    width: 259px;
+    border: 1px solid #D23166;
+    background: #000;
+    /* color: #fff; */
+}
+.input-cards{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.polar__strong{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.polar__input-card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A0808;
+    border: none;
+    width: 388px;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid #D64374;
+    /* opacity: 0.5; */
+}
+.polar__subscribe{
+    width: 125px;
+    border: none;
+    height: 55px;
+    border-radius: 5px;
+    background: #D23166;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.input-card-images{
+    display: flex;
+    gap: 15px;
+}
+
+/* footer-end */
